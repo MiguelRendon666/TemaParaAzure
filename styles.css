@@ -1,0 +1,127 @@
+.top-level-navigation, .project-navigation{
+  border: none !important;
+}
+
+body {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), 
+    url('https://picsum.photos/1920/1080?random=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bolt-page, .top-level-navigation, .region-header, .region-header-menubar, .bolt-page-grey, .project-navigation, .code-metric-tile .code-icon, .content-section, .hub-pivot-content, .mectrl_body, .mectrl_signout {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.bolt-header-title.title-m.l{
+  font-size: 2rem !important;
+  margin-bottom: 1rem;
+}
+
+.bolt-bubble-callout {
+  border-radius: 1rem !important;
+}
+
+.bolt-tabbar, .bolt-callout-content{
+  background: linear-gradient(to top, rgba(37, 36, 35, 0.65), transparent) !important;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(10px) !important;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+[role="navigation"] .custom-scrollbar a{
+  margin-block: .25rem;
+}
+.top-level-navigation .top-navigation-item:hover, .top-level-navigation .top-navigation-item:focus{
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  filter: brightness(1.5);
+}
+
+.region-header, .project-navigation{
+  backdrop-filter: blur(10px) !important;
+}
+
+[role="navigation"] .custom-scrollbar a{
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+}
+
+.bolt-panel-root, .bolt-panel-callout-content, .bolt-callout-modal, .bolt-callout-small, .bolt-callout-medium,
+.bolt-callout-large, .bolt-callout-small-extra-large, .bolt-callout-auto, .bolt-callout-content, .mectrl_body {
+  border-radius: 2rem !important;
+}
+
+button, .bolt-button, .bolt-link-button{
+  border-radius: 2rem !important;
+}
+
+.bolt-split-button-divider {
+  margin-inline: 1rem;
+}
+
+.bolt-textfield, .flex-cell.search {
+  border-radius: 2rem !important;
+}
+
+.search-context--label {
+  border : 0px !important;
+}
+
+.vss-Persona.flex-noshrink.project-persona.css-41.large {
+    width: fit-content !important;
+    height: fit-content;
+}
+
+.project-link.flex-column.flex-grow .using-image {
+    width: 100% !important;
+}
+
+.bolt-card {
+  border-radius: 2rem !important;
+}
+
+.project-overview-card {
+  margin-block: 2rem !important;
+  margin-inline: 8px !important;
+}
+
+.project-persona .vss-Persona-content {
+  width: fit-content !important;
+  border-radius: 100% !important;
+}
+
+.azure-bg-image-personalized {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.bolt-card, .bolt-callout-content, .mectrl_body{
+  background-color: rgba(37, 36, 35, 0.55) !important;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(5px) !important;
+}
+
+#my-custom-gif{
+  opacity: 50%;
+  width: 2.5rem !important;
+  height: auto;
+  border-top-right-radius: 100% !important;
+  border-bottom-right-radius: 100% !important;
+  margin-block: 1rem;
+}
+
+.vss-Hub .vss-HubPivotBar:not(.shadowStyle)>.vss-PivotBar--bar-one-line, .vss-Hub .vss-HubPivotBar:not(.shadowStyle)>.vss-PivotBar--bar-two-line {
+  margin: 0 !important;
+}
+.vss-Hub .vss-HubPivotBar:not(.shadowStyle) {
+  padding: 0 !important;
+}
+
+.mectrl_body {
+  overflow: hidden;
+}
