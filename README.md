@@ -1,50 +1,142 @@
-# Azure DevOps Modern Theme Extension# Azure DevOps Modern Theme Extension# Azure DevOps Theme Extension
+# Azure DevOps Modern Theme Extension# Azure DevOps Modern Theme Extension# Azure DevOps Modern Theme Extension# Azure DevOps Modern Theme Extension# Azure DevOps Theme Extension
 
 
 
-Una extensión de Chrome que moderniza la interfaz de Azure DevOps con un tema elegante, efectos de cristal esmerilado y fondos personalizados dinámicos.
+Extensión de Chrome que moderniza Azure DevOps con un tema elegante y fondos personalizados.
 
 
 
-## Características del TemaUna extensión de Chrome que moderniza la interfaz de Azure DevOps con un tema elegante, efectos de cristal esmerilado y fondos personalizados dinámicos.Una extensión de Chrome para personalizar la apariencia de Azure DevOps con estilos CSS personalizados y funcionalidades JavaScript adicionales.
+## Qué haceExtensión de Chrome que moderniza Azure DevOps con un tema elegante y fondos personalizados.
 
 
 
-### **Fondo Dinámico**
+- Aplica un fondo de imagen aleatoria a toda la página
 
-- **Imagen de fondo aleatoria** aplicada a toda la página
+- Redondea todos los bordes (botones, tarjetas, paneles)
 
-- **Gradiente overlay** para mejorar la legibilidad## 🎨 Características del Tema## Características
+- Añade efectos de cristal esmerilado y transparencias## Qué haceUna extensión de Chrome que moderniza la interfaz de Azure DevOps con un tema elegante, efectos de cristal esmerilado y fondos personalizados dinámicos.
 
-- **Fondo personalizado** en la barra de navegación con la imagen de perfil del usuario
+- Personaliza la barra de navegación con tu imagen de perfil
 
-- **Actualización automática** en navegación SPA
+- Mantiene el tema al navegar entre secciones
 
 
 
-### **Efectos Visuales Modernos**### **Fondo Dinámico**- 🎨 Aplica estilos CSS personalizados sobre la interfaz de Azure DevOps
+## Instalación- Aplica un fondo de imagen aleatoria a toda la página
+
+
+
+1. Descarga o clona este repositorio- Redondea todos los bordes (botones, tarjetas, paneles)
+
+2. Ve a `chrome://extensions/`
+
+3. Activa "Modo de desarrollador"- Añade efectos de cristal esmerilado y transparencias## Características del TemaUna extensión de Chrome que moderniza la interfaz de Azure DevOps con un tema elegante, efectos de cristal esmerilado y fondos personalizados dinámicos.Una extensión de Chrome para personalizar la apariencia de Azure DevOps con estilos CSS personalizados y funcionalidades JavaScript adicionales.
+
+4. Clic en "Cargar extensión sin empaquetar"
+
+5. Selecciona la carpeta del proyecto- Personaliza la barra de navegación con tu imagen de perfil
+
+
+
+## Personalización- Mantiene el tema al navegar entre secciones
+
+
+
+Para cambiar la imagen de fondo, edita `styles.css` línea 6:
+
+```css
+
+url('TU_URL_DE_IMAGEN_AQUI');## Instalación### **Fondo Dinámico**
+
+```
+
+
+
+## Compatibilidad
+
+1. Descarga o clona este repositorio- **Imagen de fondo aleatoria** aplicada a toda la página
+
+- Azure DevOps Services (`dev.azure.com`)
+
+- Todas las secciones (Repos, Pipelines, Boards, etc.)2. Ve a `chrome://extensions/`
+
+- Navegación SPA automática
+
+3. Activa "Modo de desarrollador"- **Gradiente overlay** para mejorar la legibilidad## 🎨 Características del Tema## Características
+
+## Problemas Comunes
+
+4. Clic en "Cargar extensión sin empaquetar"
+
+- **No se aplica**: Recarga la página (Ctrl+F5)
+
+- **Se pierde al navegar**: Recarga la extensión5. Selecciona la carpeta del proyecto- **Fondo personalizado** en la barra de navegación con la imagen de perfil del usuario
+
+- **No se ve bien**: Ajusta transparencias en el CSS
+
+
+
+## Estructura
+
+## Personalización- **Actualización automática** en navegación SPA
+
+```
+
+├── manifest.json    # Configuración
+
+├── styles.css      # Tema visual
+
+├── content.js      # FuncionalidadPara cambiar la imagen de fondo, edita `styles.css` línea 6:
+
+└── README.md       # Esta documentación
+
+``````css
+
+url('TU_URL_DE_IMAGEN_AQUI');### **Efectos Visuales Modernos**### **Fondo Dinámico**- 🎨 Aplica estilos CSS personalizados sobre la interfaz de Azure DevOps
+
+```
 
 - **Bordes redondeados** en todos los elementos (tarjetas, botones, paneles)
 
+## Compatibilidad
+
 - **Efecto cristal esmerilado** (backdrop-filter: blur) en elementos clave- **Imagen de fondo aleatoria** aplicada a toda la página- 🖼️ Personaliza el fondo de la barra de navegación con la imagen del usuario
 
-- **Fondos semitransparentes** para mantener visibilidad
+- Azure DevOps Services (`dev.azure.com`)
+
+- Todas las secciones (Repos, Pipelines, Boards, etc.)- **Fondos semitransparentes** para mantener visibilidad
+
+- Navegación SPA automática
 
 - **Transiciones suaves** en todas las interacciones (0.5s ease)- **Gradiente overlay** para mejorar la legibilidad- 🔄 Detecta cambios dinámicos en la página y reaplica los estilos
 
+## Problemas Comunes
 
 
-### **Elementos Estilizados**- **Fondo personalizado** en la barra de navegación con la imagen de perfil del usuario- 💫 Mejora la apariencia de las tarjetas y elementos de perfil
+
+- **No se aplica**: Recarga la página (Ctrl+F5)
+
+- **Se pierde al navegar**: Recarga la extensión### **Elementos Estilizados**- **Fondo personalizado** en la barra de navegación con la imagen de perfil del usuario- 💫 Mejora la apariencia de las tarjetas y elementos de perfil
+
+- **No se ve bien**: Ajusta transparencias en el CSS
 
 
+
+## Estructura
 
 #### **Navegación y Estructura**- **Actualización automática** en navegación SPA
 
-- Barra de navegación superior transparente con blur
+```
 
-- Elementos de navegación con bordes redondeados extremos## Instalación
+├── manifest.json    # Configuración- Barra de navegación superior transparente con blur
 
-- Barras de pestañas con gradientes y efectos de cristal
+├── styles.css      # Tema visual
+
+├── content.js      # Funcionalidad- Elementos de navegación con bordes redondeados extremos## Instalación
+
+└── README.md       # Esta documentación
+
+```- Barras de pestañas con gradientes y efectos de cristal
 
 - Efectos hover mejorados con brillo y transparencias### **Efectos Visuales Modernos**
 
@@ -98,7 +190,7 @@ Una extensión de Chrome que moderniza la interfaz de Azure DevOps con un tema e
 
    ```bash
 
-   git clone https://github.com/tu-usuario/azure-devops-theme-extension.git- **`.project-persona .vss-Persona-content`**: Avatar circular perfecto
+   git clone https://github.com/MiguelRendon666/TemaParaAzure.git- **`.project-persona .vss-Persona-content`**: Avatar circular perfecto
 
    ```
 
@@ -407,7 +499,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 Si encuentras problemas o tienes sugerencias:
 
 1. **Revisa** la sección de [Solución de Problemas](#-solución-de-problemas)
-2. **Busca** en los [Issues existentes](https://github.com/tu-usuario/azure-devops-theme-extension/issues)
+2. **Busca** en los [Issues existentes](https://github.com/MiguelRendon666/TemaParaAzure/issues)
 3. **Crea un nuevo Issue** con detalles del problema
 
 ---
